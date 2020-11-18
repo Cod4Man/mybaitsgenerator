@@ -1,0 +1,155 @@
+package com.codeman.mybaitsgenerator.pojo;
+
+import java.util.Date;
+
+public class Blog {
+    private Long id;
+
+    private Boolean appreciation;
+
+    private Boolean commentabled;
+
+    private String content;
+
+    private Date createTime;
+
+    private String firstPicture;
+
+    private String flag;
+
+    private Boolean published;
+
+    private Boolean recommend;
+
+    private Boolean shareStatement;
+
+    private String title;
+
+    private Date updateTime;
+
+    private Integer views;
+
+    private Long typeId;
+
+    private Long userId;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Boolean getAppreciation() {
+        return appreciation;
+    }
+
+    public void setAppreciation(Boolean appreciation) {
+        this.appreciation = appreciation;
+    }
+
+    public Boolean getCommentabled() {
+        return commentabled;
+    }
+
+    public void setCommentabled(Boolean commentabled) {
+        this.commentabled = commentabled;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
+
+    public String getFirstPicture() {
+        return firstPicture;
+    }
+
+    public void setFirstPicture(String firstPicture) {
+        this.firstPicture = firstPicture;
+    }
+
+    public String getFlag() {
+        return flag;
+    }
+
+    public void setFlag(String flag) {
+        this.flag = flag;
+    }
+
+    public Boolean getPublished() {
+        return published;
+    }
+
+    public void setPublished(Boolean published) {
+        this.published = published;
+    }
+
+    public Boolean getRecommend() {
+        return recommend;
+    }
+
+    public void setRecommend(Boolean recommend) {
+        this.recommend = recommend;
+    }
+
+    public Boolean getShareStatement() {
+        return shareStatement;
+    }
+
+    public void setShareStatement(Boolean shareStatement) {
+        this.shareStatement = shareStatement;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public Date getUpdateTime() {
+        return updateTime;
+    }
+
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
+    }
+
+    public Integer getViews() {
+        return views;
+    }
+
+    public void setViews(Integer views) {
+        this.views = views;
+    }
+
+    public Long getTypeId() {
+        return typeId;
+    }
+
+    public void setTypeId(Long typeId) {
+        this.typeId = typeId;
+    }
+
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
+}
